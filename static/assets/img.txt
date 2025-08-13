@@ -1,1 +1,1 @@
-put your images in this folder
+put your images in this folder (inside of img folder)
