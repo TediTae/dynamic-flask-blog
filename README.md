@@ -10,6 +10,17 @@ A dynamic Flask blog fetching posts from an external API, demonstrating web deve
 - **Responsive Design** with Bootstrap 5
 - **Reusable Templates**: Header and Footer are separate files (`header.html`, `footer.html`) and included in all pages
 
+---
+
+## 📌 Updates
+### v1.1 — Contact Form Functionality Added
+- Contact sayfasındaki form artık aktif.
+- Kullanıcı tarafından gönderilen mesajlar Flask request ile alınarak smtplib üzerinden e-posta olarak iletiliyor.
+- Hem @app.get hem de @app.post metotları ile form verileri işleniyor.
+- Form gönderiminden sonra aynı site formatında başarılı gönderim mesajı görüntüleniyor.
+
+---
+
 ## Installation
 
 ```bash
